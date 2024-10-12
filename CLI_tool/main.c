@@ -1,28 +1,47 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 // ./CLI_tool < data.txt > result.txt
 
-void readInput() {
+
+typedef struct{
+    int count;
+    int data[100];
+}record;
+
+
+record readInput() {
     char input[100]; 
     char buff[5];
     int buff_i = 0;
+    record total;  
     scanf("%s", input);
-    for(int i = 0; i < 100; i++)
-    {
+
+    // going through char array and converting to int array
+    for(int i = 0; i < 100; i++){
         char c = input[i];
-        printf("c: %c\n", c);
         if (c == '\0')
         {
+            //save the last number to int array and break 
+            int number;
+            sscanf(buff, "%d", &number);
+            total.data[total.count] = number;
             break;
         }
         else if(c == ',')
         {
-            buff_i = 0;
-           // memset(&buff[0], 0, sizeof(buff));
+            //convert char buff (array of digits) to a single number 
             int number;
             sscanf(buff, "%d", &number);
-            printf("num: %d\n", number);
+            total.data[total.count] = number;
+            //resetting buff - probably can be in one line
+            for (int k = 0; k < buff_i; k++)
+            {
+                buff[k] = '\0';
+            }
+            buff_i = 0;
+            total.count++;
         }
         else
         {
@@ -30,7 +49,7 @@ void readInput() {
         }
         
     }
-    printf("input: %s\n", input);
+    return total;       //returns both data and number of elements
 }
 
 void bubbleSort(int *data, int n) {
@@ -61,10 +80,11 @@ void printResult(int *data, int n)
 int main ()
 {
     printf("Hello CLI tool. I'm sorting your data now :)\n");
-    int data[] = { 3, 6, 1, 8, 8, -3, 0, 7 };
-    int n = sizeof(data) / 4;
+    record total = readInput();
+    int n = total.count +1; //count starts from 0
+    int* data = malloc(sizeof(int)*n); 
+    data = total.data;
     bubbleSort(data, n);
-    // printResult(data, n);
-    readInput();
+    printResult(data, n);
     return 0;
 }
