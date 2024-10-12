@@ -6,9 +6,9 @@
   * first quick overview of all paradigms (imperative {procedural/object-oriented} and declarative {functional/logic-oriented})
   * a language for each of those paradigms
 * at the end more deep dive into python and C++
-  * solve single problems and wrap up with implementing a useful project)
+  * solve single problems and wrap up with implementing a useful project
 
-## Session 1
+## Session 1 - Simple C
 
 * setup github
 * do some "pair programming" (switching every 5mins)
@@ -17,3 +17,18 @@
   * calculate (quicksort, binary search)
   * ... later: same algorithms with haskell
 
+## Session 2 - OOP with C++
+
+* Polymorphism
+* Inheritance VS Subtyping
+* Coherence and Coupling
+* Co-/Contra-/Invariance
+* Templates (Generics)
+* misusing OOP for grouping procedural code (header interfaces) VS "real" OOP (roles)
+
+## Next Sessions
+
+* Haskell
+* Java+Maven+Eclipse, Kotlin+Gradle+IntelliJ (ktor, test, ... ultimate workshop showcase)
+* Python (some library)
+* Runtime complexity analysis
