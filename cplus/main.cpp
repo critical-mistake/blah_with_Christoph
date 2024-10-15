@@ -1,5 +1,7 @@
 #include <iostream> 
 #include "Animal.h"
+#include "List.h"
+
 
 using namespace std;
 
@@ -7,6 +9,12 @@ void showAgeOf(Animal* animal);
 void beAnnoying(Animal* animal);
 
 int main() {
+    string x[2] = {"a","b"};
+    List something(x, 2);
+    something.print();
+    return 0;
+}
+void name(){
     string name = "Paula";
     cout << "Hello " << name << endl;
 
@@ -24,7 +32,6 @@ int main() {
     beAnnoying(&bello);
     beAnnoying(&kitty);
     bello.petMe(40);
-    return 0;
 }
 
 //void passByValue(Animal animal) { // copy will be passed; function/stack-local
