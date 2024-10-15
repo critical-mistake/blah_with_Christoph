@@ -55,7 +55,8 @@ specifics:
 ### Homework
 
 * [ ] get custom with GIT command line interface (use git aliases)
-* [ ] be an expert in your IDE: use shortcut (to save + compile + run with one hit)
+* [ ] be an expert in your IDE: use shortcut (to save + compile + run with one hit); but also text editing shortcut
+* [ ] learn/look at some UML class diagrams
 
 ## Session 3 - Paradigm Shift
 

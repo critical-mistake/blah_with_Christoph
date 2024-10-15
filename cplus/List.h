@@ -2,25 +2,31 @@
 
 using namespace std;
 
-class List{
+
+// T ... nothing
+// T must be at least... Pettable; i require T to implement Pettable.
+template <typename T> class List {
 private:
     int size;
-    string* pointer;
+    T* pointer;
 public:
-    List(string data[], int size);
+    List(T data[], int size);
     void print();
+    // add(All)
+    // remove(All)
+    // boolean contains(item)
 };
-List::List(string data[], int size){
-    this->pointer = new string[size];
+template <typename T> List<T>::List(T data[], int size){
+    this->pointer = new T[size];
     this->size = size;
     for(int i = 0; i < size; i++){
         pointer[i] = data[i];
     }
 }
-void List::print(){
+template <typename T> void List<T>::print(){
     cout << "list = ";
     for(int i = 0; i < this->size; i++){
-        cout << " " << *(this->pointer+i); 
+        cout << " " << *(this->pointer+i);
     }
     cout << endl;
 }

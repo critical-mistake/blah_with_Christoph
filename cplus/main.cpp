@@ -10,8 +10,13 @@ void beAnnoying(Animal* animal);
 
 int main() {
     string x[2] = {"a","b"};
-    List something(x, 2);
-    something.print();
+    List<string> strings(x, 2);
+    strings.print();
+
+    int y[2] = {4, 1337};
+    List<int> ints(y, 2);
+    ints.print();
+
     return 0;
 }
 void name(){
