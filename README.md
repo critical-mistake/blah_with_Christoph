@@ -33,28 +33,38 @@
 
 ## Session 2 - C++ OOP
 
-* get familiar with OOP (object oriented programming) by using C++
-* subclassing, interfaces, access modifiers, header files, complex build
-* topic: TBD
+Get familiar with OOP (object-oriented programming) by using C++.
+
+* Pass by value/pointer (de/reference operator)
+* Interfaces
+* Access Modifiers (visibility)
+* UML
+* Header Files
 * Polymorphism
-* Inheritance VS Subtyping
+* Inheritance (Subclassing) VS Subtyping
 * Coherence and Coupling
 * Co-/Contra-/Invariance
 * Templates (Generics)
 * misusing OOP for grouping procedural code (header interfaces) VS "real" OOP (roles)
 
+specifics:
+
+* operator overloading
+* multiple inheritance + diamond problem
+
 ### Homework
 
 TBD
 
-## Session 3 - Haskell FP
+## Session 3 - Paradigm Shift
 
-* learn FP (functional programming) by using haskell as a language
+* learn FP (functional programming) by using Haskell as a language
+* learn Logic Oriented Programming by using ASP/clojure (just a bit, review code for example usage)
 
 ## Session 4 - JVM
 
-* Java+Maven+Eclipse, Kotlin+Gradle+IntelliJ (ktor, test, ... ultimate workshop showcase)
 * learn a state-of-the-art general purpose language running on the JVM which combines OOP and FP capabilities
+* Java+Maven+Eclipse and Kotlin+Gradle+IntelliJ (ktor, tests, ... ultimate workshop showcase)
 
 ## Session 5 - Python scripting
 
@@ -62,14 +72,13 @@ TBD
 
 ## Session 6 - Fun stuff
 
-* ASP/clojure
-* smalltalk, objective-C, swift, rust, go
+* smalltalk, objective-C, swift, rust, go, C#/F# (nuget)
 * frameworks, libraries
-* database
+* databases
 * advanced terminal
 * SCM (build)
 * cloud
 * mobile apps (native, flutter)
-* web dev (react, angular)
+* web dev (react, angular); typescript/HTML/CSS, vanilla JS
 * Runtime complexity analysis
 * ...

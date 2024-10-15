@@ -1,4 +1,5 @@
 *.exe
+/local/
 
 # intellij metafiles
 *.iml
