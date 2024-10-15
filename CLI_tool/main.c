@@ -64,6 +64,54 @@ void bubbleSort(int *data, int n) {
     }
 }
 
+int max(int a,int b,int c){
+     if (a >= b) {
+        if (a >= c)
+            return a;
+        else
+            return c;
+    }
+    else {
+        if (b >= c)
+            return b;
+        else
+            return c;
+    }
+}
+
+void swap(int a,int b){
+    int tmp = a;
+    a = b;
+    b = tmp;
+}
+
+void quicksort(int* data, int n){
+    int N = n;
+    int pivot = data[n/2];
+    int l = 0;
+    int r = n-1;
+
+    while(l < r){
+        printf("pivot = %d\n", pivot);
+        while(data[l] <= pivot && l <= n -1){
+            l++;
+        }
+        while(data[r] > pivot && r >= N){
+            r--;
+        }
+        if(l < r){
+            swap(data[l], data[r]);
+        }
+    } 
+    n = r;
+    quicksort(data, n);
+    quicksort(data, N-n);
+}
+
+int cmp (void const* a, void const* b){
+    return (*(int*)a - *(int*)b);
+}
+
 void printResult(int *data, int n)
 {
     printf("Result: [");
@@ -85,6 +133,8 @@ int main ()
     int* data = malloc(sizeof(int)*n); 
     data = total.data;
     bubbleSort(data, n);
+    //quicksort(data,n);
+    //qsort(data, n, sizeof(int), cmp);
     printResult(data, n);
     return 0;
 }
