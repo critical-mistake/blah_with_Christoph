@@ -46,9 +46,6 @@ Get familiar with OOP (object-oriented programming) by using C++.
 * Co-/Contra-/Invariance
 * Templates (Generics)
 * misusing OOP for grouping procedural code (header interfaces) VS "real" OOP (roles)
-
-specifics:
-
 * operator overloading
 * multiple inheritance + diamond problem
 
