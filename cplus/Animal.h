@@ -23,13 +23,17 @@ private:
     int secret;
 };
 
-class Dog : public Animal {
+class Dog : public Animal{
 public:
     string name;
     Dog(string name, int age) : Animal(age) { // construct + invoke super-constructor
         // this == Dog*
         this->name = name;
-    }
+    }  
 };
 
-class Cat
+class Cat : public Animal{
+    public:
+        Cat(int age) : Animal(age){
+        }
+};

@@ -15,9 +15,10 @@ int main() {
 //    cout << "Dog's name and age: " << bello.name << ", " << bello.age << endl;
     showAgeOf(bello);
 
-    Cat ..
-    showAgeOf(kitty)
-
+    Cat kitty(5);
+    showAgeOf(kitty);
+    Animal orion(7);
+    showAgeOf(orion);
     return 0;
 }
 
