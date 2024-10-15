@@ -28,7 +28,7 @@
 
 ### Homework
 
-* [ ] finish implementation of the CLI tool (reading input from std:in)
+* [x] finish implementation of the CLI tool (reading input from std:in)
 * [ ] implement another sort algorithm: quicksort
 
 ## Session 2 - C++ OOP
@@ -54,7 +54,8 @@ specifics:
 
 ### Homework
 
-TBD
+* [ ] get custom with GIT command line interface (use git aliases)
+* [ ] be an expert in your IDE: use shortcut (to save + compile + run with one hit)
 
 ## Session 3 - Paradigm Shift
 
