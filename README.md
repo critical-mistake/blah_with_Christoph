@@ -57,8 +57,10 @@ Get familiar with OOP (object-oriented programming) by using C++.
 
 ## Session 3 - Paradigm Shift
 
-* learn FP (functional programming) by using Haskell as a language
-* learn Logic Oriented Programming by using ASP/clojure (just a bit, review code for example usage)
+* show "paradigm tree"
+* questions about OOP?
+* learn FP (functional programming) by using Haskell
+* learn Logic Oriented Programming by using ASP/clojure? (just a bit, review code for example usage; quicksort!)
 
 ## Session 4 - JVM
 
