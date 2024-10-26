@@ -36,6 +36,7 @@
 Get familiar with OOP (object-oriented programming) by using C++.
 
 * Pass by value/pointer (de/reference operator)
+* const (immutability)
 * Interfaces
 * Access Modifiers (visibility)
 * UML
@@ -71,11 +72,14 @@ Get familiar with OOP (object-oriented programming) by using C++.
 
 * because scripting with a kiddie language is so much in today, we use it to utilize some powerful libraries out there (cloud? machine learning?)
 
-## Session 6 - Fun stuff
+## Ideas Backlog
 
+* 2D/3D for programmatic animations
+* neuronal network for machine learning
+* blockchain
 * smalltalk, objective-C, swift, rust, go, C#/F# (nuget)
 * frameworks, libraries
-* databases
+* databases (DBMS)
 * advanced terminal
 * SCM (build)
 * cloud
