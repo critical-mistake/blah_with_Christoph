@@ -36,17 +36,15 @@
 Get familiar with OOP (object-oriented programming) by using C++.
 
 * Pass by value/pointer (de/reference operator)
-* const (immutability)
 * Interfaces
 * Access Modifiers (visibility)
-* UML
 * Header Files
 * Polymorphism
-* Inheritance (Subclassing) VS Subtyping
-* Coherence and Coupling
-* Co-/Contra-/Invariance
 * Templates (Generics)
-* misusing OOP for grouping procedural code (header interfaces) VS "real" OOP (roles)
+
+not covered:
+* const (immutability)
+* structs and unions
 * operator overloading
 * multiple inheritance + diamond problem
 
@@ -75,12 +73,24 @@ OPTIONAL:
 * learn a state-of-the-art general purpose language running on the JVM which combines OOP and FP capabilities
 * Java+Maven+Eclipse and Kotlin+Gradle+IntelliJ (ktor, tests, ... ultimate workshop showcase)
 
+## Session X - OOP advanced
+
+* polymorphism on stereoids: multi methods simulated ;)
+* Coherence and Coupling
+* Co-/Contra-/Invariance
+* Inheritance (Subclassing) VS Subtyping
+* misusing OOP for grouping procedural code (header interfaces) VS "real" OOP (roles)
+* diamond problem solved (vs C++ with multiple-inheritance)
+
 ## Session 5 - Python scripting
 
 * because scripting with a kiddie language is so much in today, we use it to utilize some powerful libraries out there (cloud? machine learning?)
 
 ## Ideas Backlog
 
+* design patterns
+* dependency injection (software design/reusability, test)
+* TDD (XP, pair programming); typical test kata
 * 2D/3D for programmatic animations
 * neuronal network for machine learning
 * blockchain
