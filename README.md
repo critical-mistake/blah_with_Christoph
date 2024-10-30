@@ -88,18 +88,18 @@ OPTIONAL:
 
 ## Ideas Backlog
 
-* design patterns
 * dependency injection (software design/reusability, test)
+* CI/CD; maven/gradle; cloud builds
+* databases (DBMS)
+* design patterns
+* GitLab
 * TDD (XP, pair programming); typical test kata
 * 2D/3D for programmatic animations
 * neuronal network for machine learning
 * blockchain
 * smalltalk, objective-C, swift, rust, go, C#/F# (nuget)
-* frameworks, libraries
-* databases (DBMS)
-* advanced terminal
-* SCM (build)
-* cloud
+* frameworks, libraries, ...
+* advanced terminal/shell features
 * mobile apps (native, flutter)
 * web dev (react, angular); typescript/HTML/CSS, vanilla JS
 * Runtime complexity analysis
