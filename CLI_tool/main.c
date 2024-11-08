@@ -85,11 +85,11 @@ void swap(int a,int b){
     b = tmp;
 }
 
-void quicksort(int* data, int n){
+void quicksort(int* data, int n, int left, int right){
     int N = n;
     int pivot = data[n/2];
-    int l = 0;
-    int r = n-1;
+    int l = left;
+    int r = right;
 
     while(l < r){
         printf("pivot = %d\n", pivot);
@@ -103,9 +103,9 @@ void quicksort(int* data, int n){
             swap(data[l], data[r]);
         }
     } 
-    n = r;
-    quicksort(data, n);
-    quicksort(data, N-n);
+    swap(&data[right], &data[r]);
+    quicksort(data, n, right, r-1);
+    quicksort(data, N-n, r+1, left);
 }
 
 int cmp (void const* a, void const* b){
@@ -132,8 +132,9 @@ int main ()
     int n = total.count +1; //count starts from 0
     int* data = malloc(sizeof(int)*n); 
     data = total.data;
-    bubbleSort(data, n);
-    //quicksort(data,n);
+
+    //bubbleSort(data, n);
+    quicksort(data,n);
     //qsort(data, n, sizeof(int), cmp);
     printResult(data, n);
     return 0;
