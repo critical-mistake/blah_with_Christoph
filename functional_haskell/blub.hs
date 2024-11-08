@@ -12,7 +12,10 @@
 --{ x | x ∈ list ∧ x ≤ 10 }
 
 main = do
-  putStrLn(show(contains [1,3,5] 4))
+  putStrLn(show(factorial 3))
+
+multiplyByTwo :: Int -> Int 
+multiplyByTwo number = number*2
 
 myCount :: [Int] -> [Int]
 myCount list = [ x | x <- list, x <= 10 ]
@@ -29,3 +32,10 @@ contains (head:tail) needle | head == needle = True
 --         else contains(restOfTheList, needle)
 --}
 
+factorial :: Int -> Int
+factorial x  | x == 0 = 1 
+             | x > 0 = x*factorial(x-1) 
+
+quicksort :: (Ord a) => [a] -> [a]
+quicksort [] = []
+quicksort (x:xs) = quicksort [ y | y <- xs, y <= x ] ++ [x] ++ quicksort [ y | y <- xs, y > x ]
