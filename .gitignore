@@ -6,3 +6,7 @@
 /.idea
 
 .vscode/
+
+# haskell 
+*.hi
+*.o

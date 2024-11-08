@@ -12,7 +12,7 @@
 --{ x | x ∈ list ∧ x ≤ 10 }
 
 main = do
-  putStrLn(show(contains [1,3,5] 5))
+  putStrLn(show(contains [1,3,5] 4))
 
 myCount :: [Int] -> [Int]
 myCount list = [ x | x <- list, x <= 10 ]
