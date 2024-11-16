@@ -54,10 +54,11 @@ not covered:
 
 ## Session 4 - ???
 
-* program yourself basic functionals in haskell (show me, demo, exam)
-* categorization languages: statically-dynamically, strong-weak, compiled-scripted
-* exception handling (in python)
-* TDD (TestDrivenDevelopment/-Design) (XP=eXtreme programming, pair programming); typical test kata
+* go through old homework together
+* FP: program yourself basic functionals in haskell (show me, demo, exam)
+* THEORY: categorization languages: statically-dynamically, strong-weak, compiled-scripted
+* CODE: exception handling (in python)
+* CODE: TDD (TestDrivenDevelopment/-Design) (XP=eXtreme programming, pair programming); typical test kata
 
 ## Session 5 - ???
 
@@ -67,13 +68,13 @@ not covered:
 
 ## Ideas Backlog
 
-* Logic Oriented Programming (ASP/clojure)
-* advanced terminal/shell features -become a proper nerd
-* runtime complexity analysis (big-O-notation)
+* CODE: Logic Oriented Programming (ASP/clojure)
+* OS: advanced terminal/shell features -become a proper nerd
+* THEORY: runtime complexity analysis (big-O-notation)
 
-* use python with some powerful libraries out there (cloud/serverless? machine learning?)
-* design pattern: template pattern (structural reuse VS functional)
-* small project: expose python functionality via webservice+frontend
+* CODE: use python with some powerful libraries out there (cloud/serverless? machine learning?)
+* CODE: design pattern: template pattern (structural reuse VS functional)
+* CODE: small project: expose python functionality via webservice+frontend
 
 ### OOP
 
@@ -88,18 +89,17 @@ not covered:
 
 ### Later
 
-* regexps (regular expressions) -super NERDY!
-* learn a state-of-the-art general purpose language running on the JVM which combines OOP and FP capabilities
-* Java+Maven+Eclipse and Kotlin+Gradle+IntelliJ (ktor, tests, ... ultimate workshop showcase)
-* 2D/3D for programmatic animations; eg: manim library (animate stuff from 3blue1brown.com)
-* dependency injection (software design/reusability, test)
-* CI/CD; maven/gradle; cloud builds
-* databases (DBMS/SQL)
-* GitLab
-* neuronal network for machine learning - write your own playground
-* blockchain - write your own playground
-* more languages: smalltalk (OOP), objective-C/swift (apple), rust, go, C#/F# (MS, nuget)
-* web dev (react, angular); typescript/HTML/CSS, vanilla JS
+* NERD: RegExps (regular expressions)
+* CODE: Java+Maven+Eclipse and Kotlin+Gradle+IntelliJ (ktor, tests, ... ultimate workshop showcase)
+* CODE: 2D/3D for programmatic animations; eg: manim library (animate stuff from 3blue1brown.com)
+* CODE: smalltalk (OOP), objective-C/swift (apple), rust, go, C#/F# (MS, nuget)
+* WEB DEV (react, angular); typescript/HTML/CSS, vanilla JS
+* TOOLS: GitLab
+* TOOLS: dependency injection; spring/CDI/koin/hand-written (software design/reusability, test)
+* TOOLS: databases (DBMS/SQL)
+* TOOLS: CI/CD; maven/gradle; cloud builds
+* PROJECT: neuronal network for machine learning - write your own playground
+* PROJECT: blockchain - write your own playground
 
 ### Nope
 
