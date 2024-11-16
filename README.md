@@ -50,46 +50,60 @@ not covered:
 * questions about OOP?
 * learn FP (functional programming) by using Haskell
 
+
+
 ## Session 4 - ???
+
+* program yourself basic functionals in haskell (show me, demo, exam)
+* categorization languages: statically-dynamically, strong-weak, compiled-scripted
+* exception handling (in python)
+* TDD (TestDrivenDevelopment/-Design) (XP=eXtreme programming, pair programming); typical test kata
 
 ## Session 5 - ???
 
+
 ## Session 6 - ???
+
 
 ## Ideas Backlog
 
-* learn a state-of-the-art general purpose language running on the JVM which combines OOP and FP capabilities
-* Java+Maven+Eclipse and Kotlin+Gradle+IntelliJ (ktor, tests, ... ultimate workshop showcase)
+* Logic Oriented Programming (ASP/clojure)
+* advanced terminal/shell features -become a proper nerd
+* runtime complexity analysis (big-O-notation)
 
-* polymorphism on stereoids: multi methods simulated ;)
+* use python with some powerful libraries out there (cloud/serverless? machine learning?)
+* design pattern: template pattern (structural reuse VS functional)
+* small project: expose python functionality via webservice+frontend
+
+### OOP
+
+... each about 20-30 minutes. make it a single session.
+
+* polymorphism on stereoids: multi-methods simulated ;)
 * Coherence and Coupling
 * Co-/Contra-/Invariance
 * Inheritance (Subclassing) VS Subtyping
-* misusing OOP for grouping procedural code (header interfaces) VS "real" OOP (roles)
-* diamond problem solved (vs C++ with multiple-inheritance)
+  * misusing OOP for grouping procedural code (header interfaces) VS "real" OOP (roles)
+* "diamond problem" solved (vs C++ with multiple-inheritance)
 
-* because scripting with a kiddie language is so much in today, we use it to utilize some powerful libraries out there (cloud? machine learning?)
+### Later
 
-* regexps
-* learn Logic Oriented Programming by using ASP/clojure? (just a bit, review code for example usage; quicksort!)
-* template pattern (design pattern; structural reuse VS functional)
-* exception handling
+* regexps (regular expressions) -super NERDY!
+* learn a state-of-the-art general purpose language running on the JVM which combines OOP and FP capabilities
+* Java+Maven+Eclipse and Kotlin+Gradle+IntelliJ (ktor, tests, ... ultimate workshop showcase)
+* 2D/3D for programmatic animations; eg: manim library (animate stuff from 3blue1brown.com)
 * dependency injection (software design/reusability, test)
 * CI/CD; maven/gradle; cloud builds
-* databases (DBMS)
-* design patterns
+* databases (DBMS/SQL)
 * GitLab
-* TDD (XP, pair programming); typical test kata
-* 2D/3D for programmatic animations
-* neuronal network for machine learning
-* blockchain
-* smalltalk, objective-C, swift, rust, go, C#/F# (nuget)
-* frameworks, libraries, ...
-* advanced terminal/shell features
-* mobile apps (native, flutter)
+* neuronal network for machine learning - write your own playground
+* blockchain - write your own playground
+* more languages: smalltalk (OOP), objective-C/swift (apple), rust, go, C#/F# (MS, nuget)
 * web dev (react, angular); typescript/HTML/CSS, vanilla JS
-* Runtime complexity analysis
-* ...
+
+### Nope
+
+* mobile apps (native, flutter)
 
 # Homework
 

@@ -240,3 +240,34 @@ instance Size [a] where -- any other
 --type MyList a = [a]
 --lengthList :: List a -> Int
 --lengthList = length
+
+
+{-
+"projection"
+
+x + y = z
++(x, y) = z
+f(x, y) = z
+f(x) = z
+f(x, y, ...) = z
+xy.. => z
+
+function :: Int -> Int -> Int
+NO!  function :: (((Int) -> Int) -> Int)
+YES! function :: (Int -> (Int -> (Int)))
+the way we see it: function :: (Int -> Int) -> Int
+	simplified: very last part is the result, everything else is input
+
+function :: (Int -> (Int -> (Int))) ... "right hand" association
+
+function(40, 2) = 42
+function(40) = function''
+function'' ... signature: Int -> Int (basically saying: add40(x))
+function''(2) = 42
+
+(Int -> (Int -> (Int))) ... pass Int
+(Int -> (Int)) ... pass Int
+Int
+
+"partial" function application
+-}
