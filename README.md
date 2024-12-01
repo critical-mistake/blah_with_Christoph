@@ -50,21 +50,26 @@ not covered:
 * questions about OOP?
 * learn FP (functional programming) by using Haskell
 
-
-
 ## Session 4 - ???
 
-* go through old homework together
-* FP: program yourself basic functionals in haskell (show me, demo, exam)
-* THEORY: categorization languages: statically-dynamically, strong-weak, compiled-scripted
-* CODE: exception handling (in python)
-* CODE: TDD (TestDrivenDevelopment/-Design) (XP=eXtreme programming, pair programming); typical test kata
+old stuff:
+
+* old homework: go through & finish together what's unfinished (see down below in this document)
+* haskell: paula programs herself basic functionals
+* programming theory: statically-dynamically, strong-weak, compiled-scripted (next to paradigms)
+
+new stuff (all in python):
+
+* exception handling
+* TDD (TestDrivenDevelopment/-Design) + test kata
 
 ## Session 5 - ???
 
+TBD
 
 ## Session 6 - ???
 
+TBD
 
 ## Ideas Backlog
 
@@ -130,3 +135,5 @@ OPTIONAL:
 
 * [ ] teach yourself basics of graph theory
 * [ ] have a look at the "lambda calculus"
+
+## Session 4
