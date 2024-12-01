@@ -89,6 +89,7 @@ not covered:
 
 ### Later
 
+* i18n = internationalization (localization)
 * NERD: RegExps (regular expressions)
 * CODE: Java+Maven+Eclipse and Kotlin+Gradle+IntelliJ (ktor, tests, ... ultimate workshop showcase)
 * CODE: 2D/3D for programmatic animations; eg: manim library (animate stuff from 3blue1brown.com)
