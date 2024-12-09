@@ -1,0 +1,147 @@
+OLD HOMEWORK
+==========================================
+
+UML
+------------------------------------------
+* structure diagrams: component, class
+* behavior diagrams: activity, use case
+* other: deployment, package, ...
+
+* class diagrams
+    * fields (visibility, name, type, defaults) and methods (visibility, name, parameters/types, return type)
+    * relations: is a, has a
+* sequence diagram (not UML, but used often)
+* ERM (not UML, but for DB useful)
+    * names, types, keys; relations, cardinality,
+
+* MDE (model driven engineering). CASE (computer aided software engineering). meta models.
+
+=> https://app.diagrams.net
+
+
+GIT CLI
+------------------------------------------
+see: https://www.geeksforgeeks.org/git-cheat-sheet/
+* basic commands
+    $ git clone <REPO_URL>
+    $ git add <FILE>
+    $ git add .
+    $ git status
+    $ git commit -m "MESSAGE"
+    $ git push
+    $ git pull ... vs: $ git fetch
+    $ git checkout <BRANCH> ... change to existing branch
+    $ git branch <BRANCH> ... create a branch
+    $ git branch -a ... list all branches
+    $ git log ... show commit history
+* features:
+    * branches, tags
+    * local, remote, origin, ...
+    * merging/rebasing
+    * stashing changes
+    * reverting
+* aliases
+	ci = commit
+	co = checkout
+	br = branch
+	st = status
+	* shell alias from "git" to "g", thus:
+	$ g st
+	$ g add .
+	$ g ci -m "yeah"
+	$ g push
+* config
+    $ git config --global user.name "Paula Juhu"
+    $ git config --global user.email "paula@juhu.com"
+    $ git config --global color.ui auto -
+
+IDE MASTERY
+------------------------------------------
+... with visual studio code
+* shortcuts!
+    * save+compile+run with one keystroke (tests)
+    * autoformatting
+    * navigating (within file (text), across files; find symbols; implementation, usages)
+    * refactoring
+* plugins
+    * enhance based on personal needs/uses
+
+GRAPH THEORY
+------------------------------------------
+* balls and lines; vertices (nodes, points) and edges (arcs, links, lines)
+* directed or not, cyclic or not, weighted (vertices and/or edges)
+* e.g.: (balanced) trees (undirected graph, single-path connection; single root), DAG (directed acyclic graphs), filesystem
+    * tree types: https://medium.com/@rohan10dalvi/types-of-trees-in-graph-theory-62ca97d94089
+* for: search algorithm (sorted trees), traveler salesman problem
+    * also: linguistics (EBNF? regexp!), social sciences (friends network), math...
+    * => https://en.wikipedia.org/wiki/Graph_theory#Physics_and_chemistry
+* write example in python + haskell (calculate something)
+
+LAMBDA CALCULUS
+------------------------------------------
+* a formal system in (mathematical) logic; a theory of functions (programming with math)
+    * function (not a block of code), but a mapping of a value from one domain to another ("co-domain"), a projection; input -> output
+    * it's "the smallest turing complete programming language"
+        * 3 pieces of syntax (variables, lambda-abstractions, applications), 1 computation rule (beta-reduction)
+        * encapsulates everything every computer can do, ever!
+    * schemas to use to calculate (simplify/translate) something
+    * every computer code can be expressed in lambda calculus
+* everything is a function (scalars, operators, loops), nothing else + functions as first-class citizens
+    syntactic sugar to make things more usable (for humans)
+* see: https://www.youtube.com/watch?v=z5ReaU4npoE (yana, 10mins)
+    animated: https://yanamal.github.io/lambda-js/
+    e.g.: f(x) = 2 * x
+        id(x) = x
+        two() = 2
+        multiply(x, y) = x * y
+        f(x) = multiply(two(), id(x))
+        actually: Lx. Lz. (Ls. Lz. s (s (z))) (x z) // L?. binding a variable, basically parameter declaration
+    math syntax: f(x) = x + 1
+    lambda syntax (a "lambda abstraction"): Lx.x + 1
+       Lambda symbol at beginning: "we are going to write a function"
+       Then parameter (name is arbitrary)
+       the "." dot: separate input from output
+    to substitute variables with concrete value: "beta-reduction"
+        "(Lx.x+1)y" =B> "y+1"
+    boolean values in lambda calculus (there are no booleans, just functions!):
+        TRUE = La. Lb. a // pick the first
+        FALSE = La. Lb. b // pick the second
+        NOT = La. a FALSE TRUE
+        NOT TRUE =
+            (La. a FALSE TRUE)
+            TRUE FALSE TRUE
+            (La. Lb. a) FALSE TRUE
+            (Lb. FALSE) TRUE
+            FALSE
+    // un/currying: flatten things, or do the reverse: "more paranthesis"
+        f(x, g(y)) == h(x, y)
+        ... ultimately reducing multi-param functions again to single-param ones, but returning a function
+* see also: https://www.youtube.com/watch?v=ViPNHMSUcog (eyesomorphic, 20mins, chill)
+
+
+HASKELL FUNCTIONALS
+------------------------------------------
+* functionals = higher order functions (take or give a function); functions as first-class citizens (first-class functions)
+    * they are usually "pure" and use recursion
+* please write your own (in haskell and if you want in python too)
+* eg:
+    * forEach
+    * filter
+    * map
+    * reduce
+* PS: recap, haskell in 100 seconds: https://www.youtube.com/watch?v=Qa8IfEeBJqk
+
+LANGUAGE CATEGORIES
+------------------------------------------
+* statically VS dynamically typed
+    * type known during compile time or not (inferred; type hinting)
+* strongly VS weakly (loosely) typed
+    * not clearly defined... how "type safe" a language is.
+    * e.g. automatic conversation or not
+    * see: https://en.wikipedia.org/wiki/Strong_and_weak_typing
+        * defined by liskov (liskov'sch substitution principle)
+* compiled VS interpreted ("script kiddie")
+    * compile: everything translated in one step (see also "linking" in C); serious, initial overhead (dev XP)
+    * interpret: line-by-line evaluation; slower, more dynamic, unsafe
+* general purpose VS domain specific (write your own DSL, like SQL).
+* ... next to paradigms already known ...

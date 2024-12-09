@@ -50,7 +50,7 @@ not covered:
 * questions about OOP?
 * learn FP (functional programming) by using Haskell
 
-## Session 4 - ???
+## Session 4 - Finish old, start Python
 
 old stuff:
 
@@ -92,7 +92,12 @@ TBD
   * misusing OOP for grouping procedural code (header interfaces) VS "real" OOP (roles)
 * "diamond problem" solved (vs C++ with multiple-inheritance)
 
-### Later
+### New Ideas (not went through with paula yet)
+
+* more languages: LISP, ASP
+* matlab (R?)
+
+### Some time later
 
 * i18n = internationalization (localization)
 * NERD: RegExps (regular expressions)
@@ -107,7 +112,7 @@ TBD
 * PROJECT: neuronal network for machine learning - write your own playground
 * PROJECT: blockchain - write your own playground
 
-### Nope
+### For sure not
 
 * mobile apps (native, flutter)
 
@@ -128,7 +133,7 @@ MUST:
 OPTIONAL:
 
 * [ ] learn/look at some UML class diagrams
-* [ ] get custom with GIT command line interface (use git aliases)
+* [ ] get accustomed to GIT command line interface (use git aliases)
 * [ ] be an expert in your IDE: use shortcut (to save + compile + run with one hit); but also text editing shortcut
 
 ## Session 3
@@ -137,3 +142,5 @@ OPTIONAL:
 * [ ] have a look at the "lambda calculus"
 
 ## Session 4
+
+* [ ] watch uncle bob's clean code lessons: https://www.youtube.com/watch?v=7EmboKQH8lM (yes, all 6 of them)
