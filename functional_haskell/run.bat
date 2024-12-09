@@ -1,2 +1,2 @@
-ghc -o blub.exe blub.hs
+ghc -o blub.exe functionals.hs
 .\blub.exe
