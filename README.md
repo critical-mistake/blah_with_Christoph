@@ -50,22 +50,16 @@ not covered:
 * questions about OOP?
 * learn FP (functional programming) by using Haskell
 
-## Session 4 - Finish old, start Python
-
-old stuff:
+## Session 4 - Finish old
 
 * old homework: go through & finish together what's unfinished (see down below in this document)
 * haskell: paula programs herself basic functionals
 * programming theory: statically-dynamically, strong-weak, compiled-scripted (next to paradigms)
 
-new stuff (all in python):
+## Session 5 - start Python
 
 * exception handling
 * TDD (TestDrivenDevelopment/-Design) + test kata
-
-## Session 5 - ???
-
-TBD
 
 ## Session 6 - ???
 
