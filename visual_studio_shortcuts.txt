@@ -1,0 +1,30 @@
+# MY visual studio tips:
+# preferences / keyboard shortcuts ... assign CMD+R to "run python file"
+# File / ... enable "Auto Save"
+
+# https://www.sitepoint.com/visual-studio-code-keyboard-shortcuts/
+# https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+
+# shortcuts:
+# - CMD+SHIFT+P ... command palette (actions)
+# - CMD+J ... open terminal
+# - CMD+K +? ... send second command; e.g.:
+#         W=close all editors
+#         Z=zen/focused mode
+# VIEW
+# - CMD+B ... toggle sidebar
+# - CMD+{1/2/3} ... navigate tab groups
+# ==> CMD+1 to focus editor (even if no tab groups; e.g. when focus in terminal)
+# NAVIGATION
+# - CMD+TAB ... quick switch files
+# - CMD+P ... quick navigation
+# - F12 (meh) ... go to definition
+# - ? ... find usage
+# - ? ... search everywhere (navigate prev/next result)
+# EDITOR
+# - CMD+L ... select line
+# - CMD+SHIFT+L ... current selection (for renaming in dynamically typed languages)
+# - F2 (meh) ... rename symbols
+# - SHIFT+ALT mouse drag ... select box
+# - CMD+SHIFT+OPT cursor ... select box
+# - CMD+OPTION { [ / ] } ... un/fold block

@@ -132,15 +132,16 @@ MUST:
 
 OPTIONAL:
 
-* [ ] learn/look at some UML class diagrams
-* [ ] get accustomed to GIT command line interface (use git aliases)
-* [ ] be an expert in your IDE: use shortcut (to save + compile + run with one hit); but also text editing shortcut
+* [x] learn/look at some UML class diagrams
+* [x] get accustomed to GIT command line interface (use git aliases)
+* [x] be an expert in your IDE: use shortcut (to save + compile + run with one hit); but also text editing shortcut
 
 ## Session 3
 
-* [ ] teach yourself basics of graph theory
-* [ ] have a look at the "lambda calculus"
+* [x] teach yourself basics of graph theory
+* [x] have a look at the "lambda calculus"
 
 ## Session 4
 
 * [ ] watch uncle bob's clean code lessons: https://www.youtube.com/watch?v=7EmboKQH8lM (yes, all 6 of them)
+* [ ] rewrite functionals (filter, map; also forEach) from haskell to python
