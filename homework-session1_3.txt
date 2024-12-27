@@ -134,7 +134,9 @@ HASKELL FUNCTIONALS
 LANGUAGE CATEGORIES
 ------------------------------------------
 * statically VS dynamically typed
-    * type known during compile time or not (inferred; type hinting)
+    * types are known (declared) during compile time or not (inferred; type hinting; duck-typing)
+    * static: C, Java
+    * dynamic: python, php, perl
 * strongly VS weakly (loosely) typed
     * not clearly defined... how "type safe" a language is.
     * e.g. automatic conversation or not
