@@ -10,3 +10,6 @@
 # haskell 
 *.hi
 *.o
+
+# macOs specific
+.DS_Store

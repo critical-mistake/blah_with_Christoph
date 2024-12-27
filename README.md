@@ -88,6 +88,7 @@ TBD
 
 ### New Ideas (not went through with paula yet)
 
+* graph theory with python
 * more languages: LISP, ASP
 * matlab (R?)
 
